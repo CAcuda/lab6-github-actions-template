@@ -66,12 +66,11 @@ def test_data_split_returns_four_parts(feature_target_sample):
 
 def test_end_to_end_train_and_eval(feature_target_sample):
     # TODO(3): Uncomment these lines to train and evaluate the model
-    X_train, X_test, y_train, y_test = data_split(*feature_target_sample)
-    model = train_model(X_train, y_train)
-    score = eval_model(X_test, y_test, model)
+    # X_train, X_test, y_train, y_test = data_split(*feature_target_sample)
+    # model = train_model(X_train, y_train)
+    # score = eval_model(X_test, y_test, model)
     # TODO(4): Add assertions to check:
     #   - score is a float
     #   - score is finite (not NaN or inf)
-    assert isinstance(score, float)
-    assert np.isfinite(score)
+    pass
     
